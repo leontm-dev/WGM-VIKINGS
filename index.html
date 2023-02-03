@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WGM VIKINGS</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <script src="script.js"></script>
+    <nav class="nav-bar">
+        <img class="nav-logo" src="./Images/WGM VIKINGS LOGO.png">
+        <div class="nav-item" onclick="goToInstagram()">
+            <div class="item-name">Instagram</div>
+            <img class="item-img" src="./Images/instagram.png">
+        </div>
+        <div class="nav-item" onclick="openErfolge()">
+            <div class="item-name">Erfolge</div>
+            <img class="item-img" src="./Images/Star-Icon.png">
+        </div>
+        <div class="nav-item" onclick="openTeam()">
+            <div class="item-name">Mitglieder</div>
+            <img class="item-img" src="./Images/Account-Icon.png">
+        </div>
+        <div class="nav-item" onclick="openNews()">
+            <div class="item-name">News</div>
+            <img class="item-img" src="./Images/News-Icon.png">
+        </div>
+        <div class="nav-item" onclick="window.location.reload()">
+            <div class="item-name">Home</div>
+            <img class="item-img" src="./Images/Home-Icon.png">
+        </div>
+    </nav>
+    <div class="home-window">
+        <img class="background" src="./Images/background.png">
+        <div class="start-text-1">We are the</div>
+        <div class="start-text-2">WGM VIKINGS</div>
+        <img class="start-img" src="./Images/WGM VIKINGS LOGO Kran.png">
+    </div>
+    <div class="erfolge-window hide">
+        
+    </div>
+    <div class="mitglieder-window hide">
+        <div class="mitglieder-title">Mitglieder der WGM VIKINGS</div>
+        <div class="mitglieder-list">
+            <div class="mitglied" onclick="openMember('Aleksandar')">
+                <img class="mitglied-img">
+                <div class="mitglied-name">Aleksandar</div>
+            </div>
+            <div class="mitglied" onclick="openMember('Can')">
+                <img class="mitglied-img">
+                <div class="mitglied-name">Can</div>
+            </div>
+            <div class="mitglied" onclick="openMember('David')">
+                <img class="mitglied-img">
+                <div class="mitglied-name">David</div>
+            </div>
+            <div class="mitglied" onclick="openMember('Lasse')">
+                <img class="mitglied-img">
+                <div class="mitglied-name">Lasse</div>
+            </div>
+            <div class="mitglied" onclick="openMember('Leon')">
+                <img class="mitglied-img">
+                <div class="mitglied-name">Leon</div>
+            </div>
+            <div class="mitglied" onclick="openMember('Malte')">
+                <img class="mitglied-img">
+                <div class="mitglied-name">Malte</div>
+            </div>
+            <div class="mitglied" onclick="openMember('Marvin')">
+                <img class="mitglied-img">
+                <div class="mitglied-name">Marvin</div>
+            </div>
+            <div class="mitglied" onclick="openMember('Merten')">
+                <img class="mitglied-img">
+                <div class="mitglied-name">Merten</div>
+            </div>
+            <div class="mitglied" onclick="openMember('Philipp')">
+                <img class="mitglied-img">
+                <div class="mitglied-name">Philipp</div>
+            </div>
+        </div>
+        <div id="mitglieder-open" class="mitglieder-open hide">
+            <div class="open-name"></div>
+            <img class="open-close" src="./Images/Close-Icon.png">
+            <img class="open-img">
+            <div class="open-info"></div>
+            <div class="open-links">
+                <a href="" class="open-link" id="open-link-tt"><img src="./Images/tik-tok.png"></a>
+                <a href="" class="open-link" id="open-link-insta"><img src="./Images/instagram.png"></a>
+                <a href="" class="open-link" id="open-link-ttv"><img src="./Images/twitch.png"></a>
+                <a href="" class="open-link" id="open-link-git"><img src="./Images/github.png"></a>
+                <a href="" class="open-link" id="open-link-yt"><img src="./Images/youtube.png"></a>
+            </div>
+        </div>
+    </div>
+    <div class="news-window">
+        <div class="news-title">News about the WGM VIKINGS</div>
+        <div class="news-list">
+            <div class="news">
+                <div class="news-header"></div>
+                <div class="news-info"></div>
+                <div class="news-date"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
