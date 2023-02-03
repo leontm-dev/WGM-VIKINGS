@@ -3,7 +3,6 @@
 body {
     margin: 0;
     padding: 0;
-    overflow: hidden;
 }
 .hide {
     display: none;
@@ -94,6 +93,7 @@ body {
     width: 800px;
     height: 800px;
     right: 10%;
+    overflow: hidden;
 }
 .mitglieder-window {
     position: absolute;
